@@ -3,17 +3,10 @@ package com.divanshu.springbootcrudoperation;
 import com.javatdivanshu.model.Books;
 import com.javatdivanshu.repository.BooksRepository;
 import com.javatdivanshu.service.BooksService;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
